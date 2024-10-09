@@ -18,10 +18,10 @@ Case Preservation: It keeps the case (upper or lower) of each letter intact duri
 Non-alphabetic Characters: The program leaves non-alphabetic characters unchanged.
 
 Key Steps:
--Command-line Input: The program expects a single integer key as a command-line argument. If the input is invalid, it prompts the user with an error message.
--Prompt for Plaintext: After validating the key, the program asks the user to enter the text they want to encrypt.
--Cipher Calculation: Each letter in the input is shifted by the key using modular arithmetic, wrapping around the alphabet as necessary.
--Print Ciphertext: The encrypted message (ciphertext) is printed out with all non-letter characters unchanged.
+<p>-Command-line Input: The program expects a single integer key as a command-line argument. If the input is invalid, it prompts the user with an error message.</p>
+<p>-Prompt for Plaintext: After validating the key, the program asks the user to enter the text they want to encrypt.</p>
+<p>-Cipher Calculation: Each letter in the input is shifted by the key using modular arithmetic, wrapping around the alphabet as necessary.</p>
+<p>-Print Ciphertext: The encrypted message (ciphertext) is printed out with all non-letter characters unchanged.</p>
 
 Note: This repository does not include CS50-provided files such as the Makefile or any standard libraries that were part of the course.
 
